@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+
+}
+
+.header-container{
+    background-image: url('images/bg-hero-desktop.svg'); /* Path to the SVG image file */;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.logo-container{
+    margin-left:10px;
+}
+
+.header-button{
+   padding: 10px 30px;
+   word-spacing: 1px;
+   border-radius:15px;
+   border: none;
+}
+
+.hero-img{
+    width:40%;
+    height:auto;
+}
+
+.banner-container{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 30px;
+    
+}
+
+.theme-container{
+    width:40%;
+}
+
+.theme-container h1{
+    font-weight: 10px;
+    font-size:50px ;
+    padding:15px;
+}
+
+.theme-container p{
+    font-weight:5px;
+    font-size:20px ;
+    padding:15px;
+}
+
+.theme-button{
+    background-color:hsl(322, 100%, 66%);
+    color:seashell;
+    padding:10px;
+    border-radius: 15px;
+    border:none
+}
+
+.cards-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width:90%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:10px;
+    box-shadow:2px 2px 2px 2px hsl(208, 11%, 55%) ;
+}
+
+.card-content h2{
+   font-weight: 10px;
+   padding-bottom:10px;
+}
+
+.spec-img{
+    width:30%;
+    height:auto;
+}
+
+.card-content{
+    width:30%;
+    padding-left:20px;
+    padding-right:30px;
+}
+
+footer{
+    background:hsl(208, 11%, 55%);
+    color:seashell;
+    margin-top:10px;
+
+}
+
+.footer-row{
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    gap: 3.5rem;
+    padding: 60px;
+}
+
+.footer-col p{
+    margin-top:20px;
+    width:60%;
+    word-spacing: 1px;
+    font-size: 15px;
+}
+
+.footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .footer-col .links li a {
+    text-decoration: none;
+    color:seashell;
+  }
+
+  .footer-col .links {
+    margin-top: 10px;
+  }
+
+  .footer-col .icons{
+    display: flex;
+    margin-top:30px;
+    gap:30px;
+    cursor: pointer;
+  }
+
+  .footer-logo{
+    margin-top: 30px;
+    margin-left:20px;
+  }
+
+  .icon-img{
+    margin-right:10px;
+  }
+
+  .footer-col a{
+    color:seashell;
+  }
